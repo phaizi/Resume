@@ -66,6 +66,7 @@ section:first-child{
 
 .contactList > li{  
     height:30px;
+    overflow-wrap: break-word;
 }
 
 .photo{
