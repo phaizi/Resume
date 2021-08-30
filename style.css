@@ -25,13 +25,13 @@ vertical-align: baseline;
     
     max-width : 595px;
     margin:auto;
-    padding:10px;
-    border: var(--disabled) 2px solid;
+    /* padding:10px; */
+    /* border: var(--disabled) 2px solid; */
 } 
 
 main {
     display: inline-block;
-    width: 70%;
+    width: 68%;
     height: 100%;
     padding-left: 2px;
     
@@ -40,7 +40,7 @@ main {
 aside {
     display: inline-block;
     vertical-align: top;
-    width: 29%;
+    width: 31%;
 }
 
 header {
