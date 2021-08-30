@@ -1,0 +1,149 @@
+:root {
+    --primary: #1e90ff;
+    --secondary: #063970;
+    --disabled: #9FB1B5;
+}
+
+body {
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+ol, ul{
+    padding-left: 10px;
+    margin:0px;
+
+}
+
+tr:nth-child(even) {
+    height: 25px;
+vertical-align: baseline;
+}
+
+.pdf {
+    
+    max-width : 595px;
+    margin:auto;
+    padding:10px;
+    border: var(--disabled) 2px solid;
+} 
+
+main {
+    display: inline-block;
+    width: 70%;
+    height: 100%;
+    padding-left: 2px;
+    
+}
+
+aside {
+    display: inline-block;
+    vertical-align: top;
+    width: 29%;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section{
+    padding-top: 10px;
+}
+section:first-child{
+    padding-top: 0px;;
+}
+
+.sectionHeading{
+    font-size:18px;
+    font-weight: 700;
+    color: var(--secondary);
+}
+
+.contactList{
+    list-style: none;
+    padding: 5px 0 ;
+    /* padding-left: 0px; */
+}
+
+.contactList > li{  
+    height:30px;
+}
+
+.photo{
+    width: 100px;
+}
+
+.icon {
+    float: left;
+    clear: left;
+    padding-bottom: 5px;
+    padding-right: 4px;
+    border-radius: 50%;
+    width: 25px;
+}
+
+.headingDetails{
+    display: inline-block;
+    width: 250px;
+}
+
+.fname {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.lname {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.profession {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--secondary);
+}
+
+.smcircle {
+    display: inline-block;
+    position:relative;
+    bottom: 3px;
+    width: 6px;
+    height: 6px;
+    background-color: var(--primary);
+    border-radius: 50%;
+}
+
+.bgcircle {
+    display: inline-block;
+    position:relative;
+    width: 11px;
+    height: 11px;
+    background-color: var(--primary);
+    border-radius: 50%;
+}
+
+.heading {
+    font-size:14px;
+    font-weight: 600;
+    padding-top: 8px;
+}
+
+.stack{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.content{
+    font-size: 11px;
+    font-weight: normal;
+}
+.clr-disabled{
+    background-color: var(--disabled);
+}
+
+.skills{
+    font-size: 12px;
+    font-weight: normal;
+}
