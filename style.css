@@ -22,11 +22,8 @@ vertical-align: baseline;
 }
 
 .pdf {
-    
     max-width : 595px;
     margin:auto;
-    /* padding:10px; */
-    /* border: var(--disabled) 2px solid; */
 } 
 
 main {
@@ -51,6 +48,7 @@ header {
 section{
     padding-top: 10px;
 }
+
 section:first-child{
     padding-top: 0px;;
 }
@@ -64,7 +62,6 @@ section:first-child{
 .contactList{
     list-style: none;
     padding: 5px 0 ;
-    /* padding-left: 0px; */
 }
 
 .contactList > li{  
@@ -82,6 +79,18 @@ section:first-child{
     padding-right: 4px;
     border-radius: 50%;
     width: 25px;
+}
+
+[alt="linkedin"] {
+    filter: brightness(120%);
+}
+
+[alt="git"] {
+    filter: brightness(72%) contrast(200%) ;
+}
+
+#gitlink {
+    line-height: 30px;
 }
 
 .headingDetails{
