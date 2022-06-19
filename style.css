@@ -22,7 +22,8 @@ vertical-align: baseline;
 }
 
 .pdf {
-    max-width : 595px;
+    /* max-width : 595px; */
+    max-width : 800px;
     margin:auto;
 } 
 
