@@ -28,6 +28,10 @@ vertical-align: baseline;
     padding:5px;
 } 
 
+.aside {
+    padding-top: 30px;
+}
+
 main {
     display: inline-block;
     width: 68%;
