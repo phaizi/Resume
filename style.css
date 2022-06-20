@@ -72,6 +72,10 @@ section:first-child{
     color: var(--secondary);
 }
 
+.sectionHeadingContainer{
+    margin-bottom: 10px;
+}
+
 .items{
     margin-top: 5px;
     margin-bottom: 10px;
@@ -173,4 +177,10 @@ section:first-child{
 .skills{
     font-size: 12px;
     font-weight: normal;
+}
+
+.skillswithmargin{
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom:5px;
 }
